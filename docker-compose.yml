@@ -1,0 +1,6 @@
+services:
+  fastapi:
+    image: yourdocker/fastapi-cicd
+    container_name: fastapi
+    ports:
+      - "80:8000"
